@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<SMConfigEx>
+	<Log>
+		<List LogCount="1000"/>
+	</Log>
+
+	<Command>
+		<Input HistoryCount="100"/>
+	</Command>
+
+	<ServerReport>
+		<!--ExceptSize is KBytes-->
+		<Report Days="3" Detail="true" ExceptSize="1024"/>
+	</ServerReport>
+
+	<Schedule>
+		<Job Type="ServerReport" Name="DailyServerReport" BeginTime="2012-01-01 09:30:00" EndTime="2022-12-31 10:00:00" Interval="24:00:00" Repeat="true"/>
+	</Schedule>
+
+	<Frame>
+		<Size>
+			<Frame Name="MainFrame">
+				<Size X="800" Y="600"/>
+			</Frame>
+		</Size>
+	</Frame>
+		
+	<View>
+		<Color>
+			<View Name="Manager">
+				<BG R="0" G="0" B="0"/>
+				<Font Type="Default" R="192" G="192" B="192"/>
+			</View>
+			<View Name="State">
+				<BG R="0" G="0" B="0"/>
+				<Font Type="Default" R="192" G="192" B="192"/>
+			</View>
+			<View Name="DefaultState">
+				<BG R="0" G="0" B="0"/>
+				<Font Type="Default" R="192" G="192" B="192"/>
+			</View>
+			<View Name="Log">
+				<BG R="0" G="0" B="0"/>
+				<Font Type="_NORMAL" R="0" G="255" B="0"/>
+				<Font Type="_ERROR" R="255" G="0" B="0"/>
+				<Font Type="_DANGERPOINT" R="255" G="0" B="0"/>
+				<Font Type="_FILELOG" R="192" G="192" B="192"/>
+				<Font Type="_HACK" R="0" G="255" B="0"/>
+				<Font Type="_HACKSHIELD" R="0" G="255" B="0"/>
+				<Font Type="_ITEMDUPLICATE" R="0" G="255" B="0"/>
+				<Font Type="_WEAPONTYPE" R="0" G="255" B="0"/>
+				<Font Type="_SESSIONCRASH" R="0" G="255" B="0"/>
+				<Font Type="_ROOMCRASH" R="0" G="255" B="0"/>
+				<Font Type="_UNREACHABLE" R="0" G="255" B="0"/>
+				<Font Type="_LOADINGDISCONNECT" R="0" G="255" B="0"/>
+				<Font Type="_ROOMFINALIZECRASH" R="0" G="255" B="0"/>
+				<Font Type="_GAMECONNECTLOG" R="0" G="255" B="0"/>
+				<Font Type="_GAMESERVERDELAY" R="0" G="255" B="0"/>
+				<Font Type="_ENTERGAMECHECK" R="0" G="255" B="0"/>
+				<Font Type="_DROPITEMPENALTY" R="0" G="255" B="0"/>
+				<Font Type="_TREASUREPENALTY" R="0" G="255" B="0"/>
+				<Font Type="_CLEARGRADEPENALTY" R="0" G="255" B="0"/>
+				<Font Type="_PRELOADEDDYNAMICLOAD" R="0" G="255" B="0"/>
+				<Font Type="_DELOBJECTNAMEKEYFINDERR" R="0" G="255" B="0"/>
+				<Font Type="_OCTREELOG" R="0" G="255" B="0"/>
+				<Font Type="_INVALIDACTOR" R="0" G="255" B="0"/>
+				<Font Type="_GPKERROR" R="0" G="255" B="0"/>
+				<Font Type="_ACCEPTORERROR" R="0" G="255" B="0"/>
+				<Font Type="_QUESTHACK" R="0" G="255" B="0"/>
+				<Font Type="_ZOMBIEUSER" R="0" G="255" B="0"/>
+				<Font Type="_EVENTLIST" R="0" G="255" B="0"/>
+				<Font Type="_FARM" R="0" G="255" B="0"/>
+				<Font Type="_GUILDWAR" R="0" G="255" B="0"/>
+				<Font Type="_MOVEPACKETSEQ" R="0" G="255" B="0"/>
+				<Font Type="_SKILLACTION" R="0" G="255" B="0"/>
+				<Font Type="_FILEDBLOG" R="0" G="255" B="0"/>
+				<Font Type="_LADDER" R="0" G="255" B="0"/>
+				<Font Type="_PVPROOM" R="0" G="255" B="0"/>
+			</View>
+		</Color>
+	</View>>
+</SMConfigEx>

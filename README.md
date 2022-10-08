@@ -14,3 +14,12 @@
 ## [ПРЕДСТОЯЩИЕ ОБНОВЛЕНИЯ]
 - [x] Обновление функций ботов.
 - [x] Серверная часть Веб-сайта PHP.
+
+## [Running the Python Script for Act Convertion]
+```Python
+    python actconverter.py (your act path) (your output path)
+```
+
+## [010 Editor]
+
+Download Link: [![WTF]](https://en.taiwebs.com/windows/download-sweetscape-010-editor-1492.html)

@@ -1,0 +1,7 @@
+{
+    "ip":           "127.0.0.1",
+    "mssql_ip":     "127.0.0.1",
+    "mssql_port":   1433,
+    "mssql_user":   "DragonNest",
+    "mssql_pass":   "E6h7HsRXJbH8ays"
+}

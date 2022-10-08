@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<ServerStruct>
+	<Struct Version="1"></Struct>
+
+	<ServiceManager IP="127.0.0.1" Port="8600"></ServiceManager>
+
+	<GSMInfo>
+        <GSMDB IP="127.0.0.1,1433" DBName="DNGSM" />
+    </GSMInfo>
+
+	<PartitionList>
+		<PartitionInfo Name="StablePartition" PID="1">
+			<MasterLog IP="127.0.0.1,1433" DBName="DNMasterLog" />
+            <GameLog IP="127.0.0.1,1433" DBName="DNServerLog" WorldID="1" />
+            <MembershipDB IP="127.0.0.1,1433" DBName="DNMembership" WorldID="1" />
+            <StagingDB IP="127.0.0.1,1433" DBName="DNStaging" />
+            <WorldDB IP="127.0.0.1,1433" DBName="DNWorld" WorldID="1" />
+            <ServerLogDB IP="127.0.0.1,1433" DBName="DNServerLog" WorldID="1" />
+		</PartitionInfo>      
+	</PartitionList>
+
+	<NetLauncherList>    
+		<Launcher ID="1" IP="127.0.0.1" PID="1" WID="1"></Launcher>
+	</NetLauncherList>
+
+	<DefaultServerInfo>
+		<SocketMax Socket="1500"></SocketMax>
+		<DBPort Port="26000"></DBPort>
+		<LoginMasterPort Port="7000"></LoginMasterPort>
+		<LoginClientPort Port="14300"></LoginClientPort>
+		<MasterVillagePort Port="8000"></MasterVillagePort>
+		<MasterGamePort Port="9000"></MasterGamePort>
+		<VillageClientPort Port="14400"></VillageClientPort>
+		<GameClientPortUDP Port="15100"></GameClientPortUDP>
+		<GameClientPortTCP Port="14500"></GameClientPortTCP>
+		<CashPort Port="12600"></CashPort>
+		<LogPort Port="3000"></LogPort>
+		<DolbyAxon WorldID="1" PrivateIP="127.0.0.1" PublicIP="127.0.0.1"  APort="30000" CPort="33000"></DolbyAxon>
+		<DoorsInfo IP="127.0.0.1" Port="11111"></DoorsInfo>
+	</DefaultServerInfo>
+
+	<DefaultDataBaseInfo>
+		<MemberShip IP="127.0.0.1" Port="1433" DBID="DragonNest" DBName="DNMembership"></MemberShip>  
+
+		<!--월드디비의 컨넥션 정보는 복수개 세팅이 가능하다. 다만 WorldID는 중복되면 안된다.-->
+		<World WorldID="1" IP="127.0.0.1" Port="1433" DBID="DragonNest" DBName="DNWorld"></World>
+
+		<!--로그디비는 퍼블리셔에 하나이다. (중국같이 멀티파티션을 갖는 곳에서는 퍼블리셔에 하나는 아니지만 하나의 관리구성내에서는(파티션의개념?) 하나가 된다.)-->
+		<Log IP="127.0.0.1" Port="1433" DBID="DragonNest" DBName="DNServerLog"></Log>
+
+		<GSM IP="127.0.0.1" Port= "1433" DBName="DNGSM"></GSM>
+		<staging IP="127.0.0.1" Port= "1433" DBName="DNStaging"></staging>
+	</DefaultDataBaseInfo>
+
+	<!-- YOUR IP No 1 LoginServer/LogServer-->
+	<ServerInfo SID="1001" Type="Login" AssignedLauncherID="1" ExcuteFileName="DNLoginserver64_TW.exe">
+		<WorldID ID="1" />
+	</ServerInfo>
+	<ServerInfo SID="1002" Type="Log" AssignedLauncherID="1" ExcuteFileName="DNLogServer64_TW.exe">
+		<WorldID ID="1" />
+	</ServerInfo>
+
+	<!-- YOUR IP No 2 MasterServer/CashServer -->
+	<ServerInfo SID="1003" Type="Master" AssignedLauncherID="1" ExcuteFileName="DNMasterServer64_TW.exe">
+		<WorldID ID="1" />
+	</ServerInfo>
+	<ServerInfo SID="1004" Type="Cash" AssignedLauncherID="1" ExcuteFileName="DNCashServer64_TW.exe" />
+
+	<!-- YOUR IP No 3 VillageServer -->
+	<ServerInfo SID="1005" Type="Village" AssignedLauncherID="1" ExcuteFileName="DNVillageServerRX64_TW">
+		<WorldID ID="1" />
+		<VillageID ID="1" />
+	</ServerInfo>
+
+  <!-- YOUR IP No 4 GameServer -->
+	<ServerInfo SID="1006" Type="Game" AssignedLauncherID="1" ExcuteFileName="DNGameServerX64_TW.exe">
+		<PreLoad Load="False" />
+		<WorldID ID="1" />
+	</ServerInfo>
+
+	<!-- YOUR IP No 5 Middle DB(Game, Village) -->
+	<ServerInfo SID="1007" Type="DB" AssignedLauncherID="1" ExcuteFileName="DNDBServer64_TW.exe" For="Game">
+		<WorldID ID="1" />
+	</ServerInfo>
+	<ServerInfo SID="1008" Type="DB" AssignedLauncherID="1" ExcuteFileName="DNDBServer64_TW.exe" For="Village">
+		<WorldID ID="1" />
+	</ServerInfo>
+</ServerStruct>

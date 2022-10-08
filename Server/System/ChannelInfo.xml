@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ChannelInfo>
+	<MeritBonusTable>
+		<!-- <Bonus ID="1" MinLevel="1" MaxLevel="85" BonusType="CompleteExp" ExtendValue="50" /> -->
+		<Bonus ID="1" MinLevel="85" MaxLevel="95" BonusType="CompleteExp" ExtendValue="150" />
+		<Bonus ID="2" MinLevel="70" MaxLevel="85" BonusType="CompleteExp" ExtendValue="150" />
+		<Bonus ID="3" MinLevel="45" MaxLevel="70" BonusType="CompleteExp" ExtendValue="150" />
+		<Bonus ID="4" MinLevel="32" MaxLevel="45" BonusType="CompleteExp" ExtendValue="150" />
+		<Bonus ID="5" MinLevel="24" MaxLevel="32" BonusType="CompleteExp" ExtendValue="150" />
+    	<Bonus ID="6" MinLevel="15" MaxLevel="24" BonusType="CompleteExp" ExtendValue="150" />
+    	<Bonus ID="7" MinLevel="9" MaxLevel="15" BonusType="CompleteExp" ExtendValue="150" />
+    	<Bonus ID="8" MinLevel="5" MaxLevel="9" BonusType="CompleteExp" ExtendValue="100" />
+    	<Bonus ID="9" MinLevel="1" MaxLevel="5" BonusType="CompleteExp" ExtendValue="50" />
+	</MeritBonusTable>
+	
+	<ServerInfo>
+		<Server ID="1" IP="127.0.0.1" Name="Rosalyne" WorldMaxUser="200" DefaultChannelCount="1" DefaultMaxUser="100">
+			<VillageServerInfo ID="1" IP="127.0.0.1" Port="14400">
+				<VillageInfo CID="1" ID="1"  Name="PrairieTown" Attribute="Normal|Merit" MeritBonusID="9" MaxUser="25" Visibility="True"></VillageInfo>
+				<VillageInfo CID="2" ID="1"  Name="PrairieTown" Attribute="Normal|Merit" MeritBonusID="9" MaxUser="25" Visibility="True"></VillageInfo>
+			
+				<VillageInfo CID="3" ID="5"  Name="ManaRidge" Attribute="Normal|Merit" MeritBonusID="8" MaxUser="25" Visibility="True"></VillageInfo>
+				<VillageInfo CID="4" ID="5"  Name="ManaRidge" Attribute="Normal|Merit" MeritBonusID="8" MaxUser="25" Visibility="True"></VillageInfo>
+			
+				<VillageInfo CID="5" ID="8"  Name="CataractGateway" Attribute="Normal|Merit" MeritBonusID="7" MaxUser="25" Visibility="True"></VillageInfo>
+				<VillageInfo CID="6" ID="8"  Name="CataractGateway" Attribute="Normal|Merit" MeritBonusID="7" MaxUser="25" Visibility="True"></VillageInfo>
+			
+				<VillageInfo CID="7" ID="11"  Name="SaintHaven" Attribute="Normal|Merit" MeritBonusID="6" MaxUser="75" Visibility="True"></VillageInfo>
+				<VillageInfo CID="8" ID="11"  Name="SaintHaven" Attribute="Normal|Merit" MeritBonusID="5" MaxUser="75" Visibility="True"></VillageInfo>
+				<VillageInfo CID="9" ID="11"  Name="SaintHaven" Attribute="Normal|Merit" MeritBonusID="4" MaxUser="75" Visibility="True"></VillageInfo>
+				<VillageInfo CID="10" ID="11"  Name="SaintHaven" Attribute="Normal|Merit" MeritBonusID="3" MaxUser="75" Visibility="True"></VillageInfo>
+				<VillageInfo CID="11" ID="11"  Name="SaintHaven" Attribute="Normal|Merit" MeritBonusID="2" MaxUser="75" Visibility="True"></VillageInfo>
+				<VillageInfo CID="12" ID="11"  Name="SaintHaven" Attribute="Normal|Merit" MeritBonusID="1" MaxUser="75" Visibility="True"></VillageInfo>
+			
+				<VillageInfo CID="13" ID="15"  Name="LotusMarshTown" Attribute="Normal|Merit" MeritBonusID="5" MaxUser="25" Visibility="True"></VillageInfo>
+				<VillageInfo CID="14" ID="15"  Name="LotusMarshTown" Attribute="Normal|Merit" MeritBonusID="4" MaxUser="25" Visibility="True"></VillageInfo>
+				<VillageInfo CID="15" ID="15"  Name="LotusMarshTown" Attribute="Normal|Merit" MeritBonusID="3" MaxUser="25" Visibility="True"></VillageInfo>
+				<VillageInfo CID="16" ID="15"  Name="LotusMarshTown" Attribute="Normal|Merit" MeritBonusID="2" MaxUser="25" Visibility="True"></VillageInfo>
+			
+				<VillageInfo CID="17" ID="187" Name="RedLotusPalace" Attribute="Normal|Merit" MeritBonusID="1" Visibility="True" MaxUser="50" />
+				<VillageInfo CID="18" ID="187" Name="RedLotusPalace" Attribute="Normal|Merit" MeritBonusID="1" Visibility="True" MaxUser="50" />
+
+				<VillageInfo CID="19" ID="42" Name="GM_Map" Attribute="Normal|GM" LanguageName="EN" Visibility="True" MaxUser="5" ></VillageInfo>
+
+				<VillageInfo CID="20" ID="189" Name="Promise_Town" Attribute="Normal|Promise" LanguageName="EN" Visibility="True" />
+				<VillageInfo CID="21" ID="189" Name="Promise_Town" Attribute="Normal|Promise" LanguageName="EN" Visibility="True" />
+				<VillageInfo CID="22" ID="189" Name="Promise_Town" Attribute="Normal|Promise" LanguageName="EN" Visibility="True" />				
+
+				<VillageInfo CID="23" ID="23"  Name="DarkVillage" Attribute="Normal|DarkLair" Visibility="True" LimitLevel="15" MaxUser="50"></VillageInfo>
+
+				<VillageInfo CID="24" ID="17"  Name="TelNumara" Attribute="Normal" Visibility="True" MaxUser="50"></VillageInfo>
+
+				<VillageInfo CID="25" ID="60"  Name="DNC_Village" Attribute="DNC" Visibility="True" MaxUser="50"></VillageInfo>
+
+				<VillageInfo CID="26" ID="15107"  Name="Farm_Town" Attribute="Normal|FarmTown" Visibility="True" LimitLevel="24" DependentMapID="11"></VillageInfo>
+				<VillageInfo CID="27" ID="15107"  Name="Farm_Town" Attribute="Normal|FarmTown" Visibility="True" LimitLevel="24" DependentMapID="11"></VillageInfo>
+			
+				<VillageInfo CID="28" ID="15108"  Name="Farm_Spa" Attribute="Normal|FarmTown" Visibility="True" LimitLevel="40" DependentMapID="11"></VillageInfo>
+				<VillageInfo CID="29" ID="15108"  Name="Farm_Spa" Attribute="Normal|FarmTown" Visibility="True" LimitLevel="40" DependentMapID="11"></VillageInfo>
+			
+				<VillageInfo CID="30" ID="15109"  Name="Farm_SeaFishing" Attribute="Normal|FarmTown" Visibility="True" LimitLevel="40" DependentMapID="11"></VillageInfo>
+				<VillageInfo CID="31" ID="15109"  Name="Farm_SeaFishing" Attribute="Normal|FarmTown" Visibility="True" LimitLevel="40" DependentMapID="11"></VillageInfo>
+
+				<VillageInfo CID="32" ID="40"  Name="ColosseumChannel" Attribute="Normal|PvP" LanguageName="EN" Visibility="True"></VillageInfo>
+				<VillageInfo CID="33" ID="40"  Name="ColosseumChannel" Attribute="Normal|PvP" LanguageName="EN" Visibility="True"></VillageInfo>
+				<VillageInfo CID="34" ID="44" Name="ColosseumChannel_DWC" Attribute="Normal|DWC" LanguageName="EN" Visibility="True" MaxUser="100" />
+				<VillageInfo CID="35" ID="44" Name="ColosseumChannel_DWC" Attribute="Normal|DWC" LanguageName="EN" Visibility="True" MaxUser="100" />
+				<VillageInfo CID="36" ID="41"  Name="ColosseumLobbyMap" Attribute="Normal|PvPLobby" LanguageName="EN" MaxUser="100" Visibility="True"></VillageInfo>
+
+				<VillageInfo CID="37" ID="11006"  Name="RL_Guild_Azit" Attribute="Normal|GuildAgit" Visibility="True" ></VillageInfo>
+				<VillageInfo CID="38" ID="11006"  Name="RL_Guild_Azit" Attribute="Normal|GuildAgit" Visibility="True" ></VillageInfo>
+		   </VillageServerInfo>
+		</Server>
+	</ServerInfo>
+	<!-- EXP definitions for Altea? Blessing System -->
+	<!-- If a character still has FTG points -->
+	<FTGExpTable>
+		<FTGExp ID="1" Value="70"/>
+	</FTGExpTable>
+
+	<!-- If a character has NO FTG points -->
+	<NoFTGExpTable>
+		<NoFTGExp Value="50"/>
+	</NoFTGExpTable>
+</ChannelInfo>
+

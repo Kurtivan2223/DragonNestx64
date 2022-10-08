@@ -1,0 +1,61 @@
+<XIGNCODE3>
+	<server>
+		<license>uw_cjrpitNrUKR</license>
+		<connection_license>uw_cjrpitNrUKR</connection_license>
+		<debug>false</debug>
+		<revision>0</revision>
+		<use_manual_packet_control>true</use_manual_packet_control>
+
+		<log>
+			<debug>false</debug>
+			<info>true</info>
+			<error>true</error>
+			<stats>true</stats>
+			<packet>true</packet>
+			<interval>1</interval>
+			<path>.\XIGNCODE3log</path>
+		</log>
+
+		<notify>
+			<first_timeout>true</first_timeout>
+			<nonclient>true</nonclient>
+			<black>true</black>
+			<timeout>false</timeout>
+			<error>true</error>
+		</notify>
+
+		<stand_alone>true</stand_alone>
+		<crash_dump>
+			<enable>true</enable>
+			<refresh>10</refresh>
+		</crash_dump>
+		<filter>
+			<z_rtn_black_code>Z_RTN_NONE</z_rtn_black_code>
+			<z_rtn_suspicious>Z_RTN_NONE</z_rtn_suspicious>
+		</filter>
+		<timeout>
+			<max>1</max>
+			<quantum>59</quantum>
+			<ban>true</ban>
+		</timeout>
+		<zce>
+			<enable>false</enable>
+			<cnt>4</cnt>
+			<quantum>120</quantum>
+		</zce>
+		<ncb>
+			<enable>false</enable>
+			<cnt>1</cnt>
+			<quantum>120</quantum>
+		</ncb>
+		<echo>
+			<enable>true</enable>
+			<cnt>1</cnt>
+			<quantum>120</quantum>
+		</echo>
+		<resend>
+			<max>5</max>
+			<ban>true</ban>
+		</resend>
+	</server>
+</XIGNCODE3>
