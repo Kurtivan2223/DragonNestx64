@@ -17,9 +17,13 @@
 
 ## [Running the Python Script for Act Convertion]
 ```Python
-    python actconverter.py (your act path) (your output path)
+python actconverter.py (your act path) (your output path)
 ```
 
 ## [010 Editor]
 
 Download Link: [Click Here](https://en.taiwebs.com/windows/download-sweetscape-010-editor-1492.html)
+
+## [Python]
+
+Download Link: [Click Here](https://www.python.org/ftp/python/3.10.8/python-3.10.8-amd64.exe)

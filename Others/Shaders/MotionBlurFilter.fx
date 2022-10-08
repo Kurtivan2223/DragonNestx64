@@ -1,0 +1,92 @@
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Global Variable
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Custom Param
+//////////////////////////////////////////////////////////////////////////////////////////////
+texture2D g_BackBuffer : BACKBUFFER;
+sampler2D g_BackBufferSampler = sampler_state
+{
+	Texture = < g_BackBuffer >;
+    AddressU = Clamp;
+    AddressV = Clamp;
+	MinFilter = Point;
+	MagFilter = Point;
+	MipFilter = None;
+};
+
+texture2D g_VelocityTex : VELOCITYEX;
+sampler2D g_VelocityTexSampler = sampler_state
+{
+	Texture = < g_VelocityTex >;
+    AddressU = Clamp;
+    AddressV = Clamp;
+	MinFilter = Point;
+	MagFilter = Linear;
+	MipFilter = Linear;
+};
+
+float g_fMotionBlurScale : MOTIONBLURSCALE;
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Vertex Buffer Declaration
+//////////////////////////////////////////////////////////////////////////////////////////////
+struct VertexInput
+{
+    float3 Position				: POSITION;
+    float2 TexCoord0			: TEXCOORD0;
+};
+
+struct VertexOutput
+{
+    float4 Position				: POSITION;
+    float2 TexCoord0			: TEXCOORD0;
+};
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Start Vertex Shader
+//////////////////////////////////////////////////////////////////////////////////////////////
+VertexOutput MotionBlurFilterVS( VertexInput Input ) 
+{
+	VertexOutput Output;
+	
+	Output.Position = float4( Input.Position, 1.0f );
+	Output.TexCoord0 = Input.TexCoord0;
+
+	return Output;
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Start Pixel Shader
+//////////////////////////////////////////////////////////////////////////////////////////////
+float4 MotionBlurFilterPS( VertexOutput Input ) : COLOR0
+{
+	int i;
+    float3 BlurColor = 0;
+
+    float4 Velocity = tex2D( g_VelocityTexSampler, Input.TexCoord0 ) * g_fMotionBlurScale;
+
+	float2 Step = Velocity * 0.2f;
+	float2 BlurCoord = Input.TexCoord0 - Step * 2.0f;
+    for( i = 0; i < 5; i++ )
+    {   
+		BlurCoord += Step;
+        BlurColor += tex2D( g_BackBufferSampler, BlurCoord ).xyz;
+    }
+    
+    return float4( BlurColor / 5, 1.0f);
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Start Technique
+//////////////////////////////////////////////////////////////////////////////////////////////
+technique DOFFilterTech
+{
+    pass p0 
+    {		
+		VertexShader = compile vs_2_0 MotionBlurFilterVS();
+		PixelShader  = compile ps_2_0 MotionBlurFilterPS();
+    }
+}
+
