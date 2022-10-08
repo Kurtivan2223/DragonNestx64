@@ -22,4 +22,4 @@
 
 ## [010 Editor]
 
-Download Link: [![WTF]](https://en.taiwebs.com/windows/download-sweetscape-010-editor-1492.html)
+Download Link: [Click Here](https://en.taiwebs.com/windows/download-sweetscape-010-editor-1492.html)
