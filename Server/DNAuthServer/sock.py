@@ -26,21 +26,21 @@ client.connect((host2, port2))
 print(host +" Client connect to " + host2 + ":" + str(port2) + "\n")
 
 server.listen()
-inputs=[server,]
+inputs = [server,]
 
 cursor = conn.cursor()
 
 while 1:
-    r_list,w_list,e_list=select.select(inputs, [], [], 1)
+    r_list, w_list, e_list=select.select(inputs, [], [], 1)
     for s in r_list:
         if(s == server):
-            conn,address=s.accept()
+            conn, address = s.accept()
             inputs.append(conn)
         else:
             try:
                 msg=s.recv(20480)
                 print("Get:" + repr(msg) + "\r\n")
-                strlist=msg.split(b"'")
+                strlist = msg.split(b"'")
                 if(len(strlist) == 10 and strlist[5] == b'I'):
                     cursor.execute("select * from Accounts where AccountName = %s and RLKTPassword = %s;",(strlist[2], hashlib.md5(strlist[3]).hexdigest().upper()))
                     output=cursor.fetchall()
