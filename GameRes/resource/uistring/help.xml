@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Help>
+<Category index="0" Title="Basic Control Guide"><![CDATA[<html>
+Use <font color="yellow">[H]</font> key to open the Basic control guide window.<br>
+<br>
+<font color="red">[Character Movement]</font><br>
+<font color="yellow">[W]</font> : Forward<br>
+<font color="yellow">[S]</font> : Backward<br>
+<font color="yellow">[A]</font> : Left<br>
+<font color="yellow">[D]</font> : Right<br>
+<font color="yellow">[E]</font> : Auto Run<br>
+<font color="yellow">[Space]</font> : Jump<br>
+<font color="yellow">[Mouse Movement]</font> : Change view (visual angle) <br>
+<br>
+<font color="red">[Switch to battle mode]</font><br>
+Use <font color="yellow">[Tab]</font> to toggle between battle / non-battle mode.<br>
+<br>
+<font color="red">[Combat Method]</font><br>
+<font color="yellow">[Left Mouse Button]</font> : Basic Attack <br>
+<font color="yellow">[Right Mouse Button]</font> : Special Attack<br>
+<font color="yellow">[Number Key 1~0]</font> : Use skill / item in quick slot<br>
+<font color="yellow">[~]</font> : Toggle between quick slot bars<br>
+<br>
+<font color="yellow">[R]</font> : Revive / Party Revive<br>
+<font color="yellow">[F]</font> : Pick up loot<br>
+<font color="yellow">[Alt]</font> : Show / Hide item name
+</html>]]></Category>
+
+<Category index="1" Title="Mouse Control"><![CDATA[<html>
+<font color="red">[Toggle Front Sight / Cursor]</font><br>
+Use <font color="yellow">[Ctrl]</font> to switch your mouse control from frontal view to cursor mode. When in cursor mode, you are unable to change the angle of frontal view. As such, this is not recommended to use during battle.<br>
+<br>
+<font color="red">[Change Visual Angle]</font><br>Change visual angle via <font color="yellow">[Mouse Movement]</font>. <br>
+Use <font color="yellow">[Mouse Wheel]</font> to zoom in / out.
+</html>]]></Category>
+
+<Category index="2" Title="Chatting"><![CDATA[<html>
+<font color="red">[Enter chat]</font><br>
+Use <font color="yellow">[Enter]</font> key<br>
+ to enter text in the chat window.<br>
+<br>
+<font color="red">[Chat Window Command]</font><br>
+<font color="yellow">[/s] [/1] [Ctrl+1]</font> : General Chat<br>
+<font color="yellow">[/p] [/2] [Ctrl+2]</font> : Party Chat<br>
+<font color="yellow">[/g] [/3] [Ctrl+3]</font> : Guild Chat<br>
+<font color="yellow">[/w] [/4] [Ctrl+4]</font> : Private Chat<br>
+<br>
+<font color="red">[Reply to Private Message]</font><br>
+Use <font color="yellow">[T]</font> key to reply to the last person who had private messaged you.<br>
+<br>
+<font color="red">[Gesture]</font><br>
+Use <font color="yellow">[I]</font> to open your backpack and select the [Gesture] tab. Drag the [Gesture] tab to the quick slot to use.
+</html>]]></Category>
+
+<Category index="3" Title="Instanced Dungeon"><![CDATA[<html>
+<font color="red">[Instanced Dungeon]</font><br>
+1. You'll enter the <font color="yellow">[World Region]</font> once you leave the village <br>
+2. <font color="yellow">[World Region]</font> has many <font color="yellow">[Portal]</font>. To enter, simply move towards the portal.<br>
+3. Each <font color="yellow">[Portal]</font> has preset level restrictions. Portals that appear black mean the minimum character level requirements have not been met. As such, you will not be able to enter.<br>
+4. If you are in a party of 2 or more, <font color="yellow">all members need to be at the entrance</font> of the portal in order to enter.
+</html>]]></Category>
+
+<Category index="4" Title="Using Skills"><![CDATA[<html>
+<font color="red">[Using Skills]</font><br>
+1. First, use the <font color = "yellow">[K]</font> to open the character skill window.<br>
+2. Click on the skill to be used and <font color = "yellow"><br>drag it into the quick slot</font>.<br>
+3. <font color = "yellow">Skills in the quick slot</font> can be activated by using <font color = "yellow">[Number keys 0-9]</font>.
+</html>]]></Category>
+
+<Category index="5" Title="Hotkey Guide"><![CDATA[<html>
+<font color="red">[Open Window]</font><br>
+<font color = "yellow">[P]</font> : Character Information<br> 
+<font color = "yellow">[I]</font> : Inventory Backpack<br>
+<font color = "yellow">[K]</font> : Skill Window<br>
+<font color = "yellow">[O]</font> : Community Window<br>
+<font color = "yellow">[U]</font> : Quest Window<br>
+<font color = "yellow">[M]</font> : Map<br>
+<font color = "yellow">[L]</font> : Achievement Window<br>
+<font color = "yellow">[Q]</font> : PvP Combat Information<br>
+<font color = "yellow">[H]</font> : Keyboard & Mouse Guide<br>
+<font color = "yellow">[ESC]</font> : System Menu<br>
+<br>
+<font color="red">[Interface Adjusttment]</font><br>
+<font color = "yellow">[ + ]</font> : Zoom in mini map<br>
+<font color = "yellow">[ - ]</font> : Zoom out mini map<br>
+<font color = "yellow">[ ] ]</font> : Increase mouse sensitivity<br>
+<font color = "yellow">[ [ ]</font> : Decrease mouse sensitivity<br>
+<br>
+<font color="red">[Voice Message]</font><br>
+At the system menu [ESC] - Game Setting - Macro Commands<br>
+to confirm message.<br>
+<font color = "yellow">[F1]</font> : Request Healing<br>
+<font color = "yellow">[F2]</font> : Attack<br>
+<font color = "yellow">[F3]</font> : Follow<br>
+<font color = "yellow">[F4]</font> : Retreat<br>
+<font color = "yellow">[F5]</font> : Stop<br>
+<font color = "yellow">[F6]</font> : Request Assistance<br>
+<font color = "yellow">[F7]</font> : Chat Macro 1<br>
+<font color = "yellow">[F8]</font> : Chat Macro 2<br>
+<font color = "yellow">[F9]</font> : Chat Macro 3<br>
+<font color = "yellow">[F10]</font> : Chat Macro 4<br>
+<br>
+<font color="red">[Other Hotkeys]</font><br>
+<font color = "yellow">[Print Screen]</font> : Take a screenshot<br>
+<font color = "yellow">[Scroll Lock]</font> : Record a video
+</html>]]></Category>
+
+<Category index="6" Title="Creating and Joining Party"><![CDATA[<html>
+<font color="red">[Creating Party]</font><br>
+Use <font color="yellow">[O]</font> to open the Community window. <br>
+Select <font color="yellow">[Party]</font> tab and<br>
+click on <font color="yellow">[Create Party]</font>to create a party. You may also right-click on a player to invite him/her to join the party.<br>
+<br>
+<font color="red">[Joining Party]</font><br>
+Select from the Friends window on <font color="yellow">[Party]</font> to see the available party list. Choose the party to join and click on <font color="yellow">[Join]</font>button to enter party. You may also click on 'Accept' to join the party upon invitation.<br>
+<br>
+<font color="red">[Item Distribution]</font><br>
+If you are the party leader<br>
+you can access the <font color="yellow">[Item Distribution Rule]</font> and <font color="yellow">[Random Distribution Rule]</font> menu to change the distribution rules.<br>
+<br>
+<font color="yellow">[Random Distribution Rule]</font> : You may set it from 'Grade D' to 'Grade S'. If the party gets the item of the defined grade,the item will be given to a random party member.<br>
+<font color="yellow">[Basic Distribution Rule]</font> : If the item gained is below the grade as set in the Random Distribution Rule, you may choose to set the rule to 'distribute in order' or 'given to the character who picked up the item' or 'give to the leader'.<br>
+However, if the item gained is untradeable, it will be distributed according to the dice result regardless of the distribution rules.
+</html>]]></Category>
+
+<Category index="7" Title="Combat Tips"><![CDATA[<html>
+<font color="red">[Combat Tips]</font><br>
+<font color="yellow">[Bounce Combo]</font><br>
+You may chain the combo by striking the monster after it has rebounded from a wall or obstacle.<br>
+<br>
+<font color="yellow">[Party Combo]</font><br>
+You may chain the combo by striking the monster after it has been striked by your party member.<br>
+<br>
+<font color="yellow">[Special Attack]</font><br>
+Use the right mouse button to execute special attack (kick).<br>
+Try the special attack on monsters who are lying on the ground.
+</html>]]></Category>
+</Help>

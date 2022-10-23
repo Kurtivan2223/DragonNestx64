@@ -3,9 +3,8 @@ local int actID = 0;
 local int SignalID = 0;
 local int DEBUG = 0;
 
-
-
-typedef enum <int> {
+typedef enum <int>
+{
     LEFT_CLICK,
     RIGHT_CLICK,
     MOUSE_WHEEL_CLICK,
@@ -23,32 +22,37 @@ typedef char BOOL8;
 typedef int Pointer;
 
 
-typedef enum <int> {
+typedef enum <int>
+{
     no,
     yes
 } bool;
 
 // D3D ARRAYS
-typedef struct {
+typedef struct
+{
   float x;
   float y;
 } D3DXVECTOR2 <optimize=false>; //D3DXVECTOR2
 
-typedef struct {
+typedef struct
+{
   float x;
   float y;
   float z;
 } D3DXVECTOR3 <optimize=false>; //D3DXVECTOR3
 
 
-typedef struct {
+typedef struct
+{
   float x;
   float y;
   float z;
   float w;
 } D3DXVECTOR4 <optimize=false>; //D3DXVECTOR4
 
-typedef struct{
+typedef struct
+{
   int VectorID;
 } VectorIndexes  <optimize=false>;
 
@@ -60,11 +64,13 @@ typedef struct
 
 //SEMNALE!
 
-struct DnNullSignalStruct  {
+struct DnNullSignalStruct
+{
 	char cReserved1[256];
 };
 
-struct SummonMonsterStruct {
+struct SummonMonsterStruct
+{
 	int MonsterID;
 	int Vec3_vPosition;
 	int nLifeTime;
@@ -78,75 +84,95 @@ struct SummonMonsterStruct {
 
 //END SEMNALE
 
-typedef struct{
+typedef struct
+{
     int size;
     if(size > 0)
     {
         BYTE data[size];
-//Printf("Signal [%d] : %s\n",SignalID,data);
+        //Printf("Signal [%d] : %s\n",SignalID,data);
     }
     
-}ActionSignal <optimize=false>;
+} ActionSignal <optimize=false>;
 
-typedef struct {
-    int m_nSignalIndex<bgcolor=cYellow>;// = b.ReadInt32();
-    int m_nStartFrame;// = b.ReadInt32();
-    int m_nEndFrame;// = b.ReadInt32();
-    int m_nOrder;// = b.ReadInt32();
+typedef struct
+{
+    int m_nSignalIndex<bgcolor=cYellow>; // = b.ReadInt32();
+    int m_nStartFrame; // = b.ReadInt32();
+    int m_nEndFrame; // = b.ReadInt32();
+    int m_nOrder; // = b.ReadInt32();
     
 
    int  m_pData[64] <format=hex>;// = new Byte[256];
 
 
 
- /*   if(m_pData[22] == 1)
+ /*   
+    if(m_pData[22] == 1)
     {
         Printf("WriteByte(0x%X,0x01);\n",startof(m_pData[22]));
-       // Printf("Signal[0x%X] error server damage\n",startof(m_pData[22]));
+        // Printf("Signal[0x%X] error server damage\n",startof(m_pData[22]));
     }
-  if(m_pData[22] == 1)
+    if(m_pData[22] == 1)
     {
         Printf("fixActSkillDamage(%d,%d); // offset = %.2X  NAME: %s \n",actID-1,SignalID,startof(m_pData[22]),szName);
-       // Printf("Signal[0x%X] error server damage\n",startof(m_pData[22]));
+        // Printf("Signal[0x%X] error server damage\n",startof(m_pData[22]));
     }
     if(m_pData[22] == 2)
     {
         Printf("WriteByte(0x%X,0x01); //atentie 0x02\n",startof(m_pData[22]));
-       // Printf("Signal[0x%X] error server damage\n",startof(m_pData[22]));
-    } */
+        // Printf("Signal[0x%X] error server damage\n",startof(m_pData[22]));
+    }
+*/
+
     int nTableCount;
-    if( nTableCount > 0 ) {
+
+    if( nTableCount > 0 )
+    {
         VectorIndexes vecindex[nTableCount];
         D3DXVECTOR2 dx2[nTableCount];
     }
+
     int nTableCount2;
-    if( nTableCount2 > 0 ) {
+
+    if( nTableCount2 > 0 )
+    {
         VectorIndexes vecindex[nTableCount2];
         D3DXVECTOR3 dx3[nTableCount2];
     }
+
     int nTableCount3;
-    if( nTableCount3 > 0 ) {
-      VectorIndexes vecindex[nTableCount3];
-      D3DXVECTOR4 dx4[nTableCount3];
+
+    if( nTableCount3 > 0 )
+    {
+        VectorIndexes vecindex[nTableCount3];
+        D3DXVECTOR4 dx4[nTableCount3];
     }
 
     int nTableCount4;
-    if( nTableCount4 > 0 ) {
-     VecStrIndex vecstrindex[nTableCount4];
-     ActionSignal as[nTableCount4];
+
+    if( nTableCount4 > 0 )
+    {
+        VecStrIndex vecstrindex[nTableCount4];
+        ActionSignal as[nTableCount4];
     }
     
     if(nVersion >= 6)
     {
         byte act6[1];
     }
-    if( nTableCount4 > 0 ) {
+
+    if( nTableCount4 > 0 )
+    {
+        //do sonething..
     }
+
     SignalID++;
 
 } Signal <optimize=false>;
 
-typedef struct {
+typedef struct
+{
     int szNameINT;
     char szName[szNameINT] <bgcolor=cRed>;
     int szLinkAniNameINT;// = b.ReadInt32();
@@ -158,41 +184,49 @@ typedef struct {
     DWORD dwBlendFrame; //= b.ReadUInt32(); 
     DWORD dwNextActionFrame; //= b.ReadUInt32();
 
-if(nVersion >= 2)
-{
-    int act2;
-}
-if(nVersion >= 3)
-{
-    int act3;
-}
-if(nVersion >= 4)
-{
-    BOOL8 act4;
-}
-if(nVersion >= 5)
-{
-    int act5;
-}
-if(nVersion >= 6)
-{
-    byte act6[1];
-}
-    Printf( "Act Name[%d]: %s  LinkAniName: %s szNextActionName: %s\n", actID ,  szName, szLinkAniName, szNextActionName); 
+    if(nVersion >= 2)
+    {
+        int act2;
+    }
+
+    if(nVersion >= 3)
+    {
+        int act3;
+    }
+
+    if(nVersion >= 4)
+    {
+        BOOL8 act4;
+    }
+
+    if(nVersion >= 5)
+    {
+        int act5;
+    }
+
+    if(nVersion >= 6)
+    {
+        byte act6[1];
+    }
+
+    Printf( "Act Name[%d]: %s  LinkAniName: %s szNextActionName: %s\n", actID ,  szName, szLinkAniName, szNextActionName);
+
     actID++;
     int nSignalCount; //= b.ReadInt32();
-    if(nSignalCount > 0){
+
+    if(nSignalCount > 0)
+    {
         Signal sg[nSignalCount];
     } 
+
     SignalID=0;//resetam signal id!!   
- 
 } Action <optimize=false>;
+
 struct ACT_EDITOR
 {
     char Header[32];
     int nVersion;
     int nActionCount;
     if(nActionCount > 0)
-        Action ac[nActionCount];
-    
+    Action ac[nActionCount];
 } act;

@@ -1,0 +1,441 @@
+Dragon Nest SEA 2021 Operational and Abuse Policy
+
+Contents
+
+1. Principles
+2. Rights and Responsibilities of Players
+3. Roles and Responsibilities of GMs and PMs
+4. Management of Dormant Accounts
+5. Recovery Policies
+6. Ban/Suspension Policies and Standards
+7. Use of Communities
+8. Policies to Protect Service Staff from Abuse
+9. Other
+
+
+
+1. Principles
+
+(1) This Operational and Abuse Policy has been created for Eyedentity Games (hereinafter "the Company") to provide a stable, uninterrupted service and to react rapidly and consistently to any issues that may arise during the service period. 
+
+(2) The purposes of this Operational and Abuse Policy are to provide a stable service while minimizing inconveniences for players and to cultivate a healthy game culture.
+
+(3) This Operational and Abuse Policy may be modified to provide a better service, and the Company shall notify players of changes through official channels such as its main website at least 30 days before such changes take effect.
+
+(4) Matters not specified within this Operational and Abuse Policy shall be handled according to the Terms of Use, general social conventions, relevant legislation, and in-game rules and standards and shall be interpreted so as to favor players as much as possible. 
+s
+
+2. Rights and Responsibilities of Players
+
+[2-1] Rights
+
+(1) Users properly registered with the game service have the right to use the game Dragon Nest and relevant content according to the terms of use. However, the Company retains ownership of content within the game such as characters and items.
+
+(2) Players may receive guidance through 1:1 Inquiry (hereinafter "Customer Support") officially operated by the Company in the event they experience difficulties using the service.
+(3) Players who have been restricted from using the game may contact Customer Support within a maximum of 15 days from the date the restriction starts to determine the specific reasons or request review. It may not be possible to check the details if the period of storage of the restriction data has ended, i.e. 15 days after the restrictions have started.
+(4) Players may request improvement of the game service through Customer Support.
+
+
+
+[2-2] Responsibilities
+
+(1) Players shall not harm another user or engage in actions detrimental to the maintenance of order.
+
+(2) Players shall endeavor to cooperate as much as possible with the requests of the Company and game service staff. Should players engage in actions in contravention of the Operational and Abuse Policy or societal conventions, their service use may be restricted according to relevant regulations. 
+
+(3) Players are responsible for periodically checking relevant policies and website notices such as the terms of use and this Operational and Abuse Policy, and should situations such as the following occur in connection with players' failure to check this information, players may not receive help.
+
+[Examples]
+
+- Inability to play the full game, e.g. events/participatory content
+- Inability to engage in all transactions, e.g. through mail, Special Storage, the Trading House, and player-to-player trades, and/or deletion of items due to inability to trade
+- Inability to use time-limited items (game, cash, etc.) and/or deletion due to the period of use ending
+- Deletion of time-limited items (game, cash, etc.) due to their period of use ending
+
+(4) Players who suffer damages due to the use of programs not officially provided or approved by the Company may not receive help from the Company. Furthermore, if such actions are exposed or the game service is hindered or work is impeded due to such actions, members may be sanctioned in accordance with the Operational and Abuse Policy and may be liable for criminal or civil damages according to relevant statutes.
+
+(5) Players shall immediately contact Customer Support if any bugs or other issues occur and may be restricted from play if they neglect this duty and abuse bugs or disseminate them to other players.
+
+(6) Players shall provide accurate information at the time of registration for the service and may not receive help from the Company if they register using false information or with another person's information. Such players are liable for theft of such information. Stolen accounts may be banned from the service.
+
+(7) Players who use accounts registered with another person's information to participate in or win Dragon Nest events may have their wins revoked and rewards or prizes canceled.
+
+(8) Players who acquire Dragon Nest characters, items, etc. using an account registered with another person's information shall not have the rights therein and may not receive help even in the event of any issues occurring. Furthermore, profits acquired through such means may be recalled at the discretion of a game service employee.
+
+(9) Players shall endeavor to use the security services provided by the Company to protect their accounts (e.g. two-factor authentication). Account problems due to players' own carelessness or error may not be resolved by Customer Support.
+
+3. Roles and Responsibilities of GMs and PMs
+
+(1) GM (Game Master, hereinafter "GM") and PM (Project Manager, hereinafter "PM") are names designating game service administrators, and these refer to the people who provide and manage uninterrupted game services.
+
+(2) GMs and PMs comply with Dragon Nest's Private Policy and relevant statutes and will not ask for players' personal information (e.g. username, password, etc.) Furthermore, they will do their utmost to protect players' accounts and personal data. However, they may provide personal data to organizations such as government or judicial authorities in accordance with legal procedures for official requests for cooperation.
+
+(3) In order to protect players' accounts, GMs and PMs may take the necessary actions to prevent harm to game data without prior notice when attempts at theft or hacking are detected.
+
+(4) GMs and PMs shall not give benefits to particular players or offer update or event information about the game other than that officially provided.
+
+(5) GMs and PMs shall endeavor to process support for players as quickly as possible and shall always handle all problems transparently and in accordance with appropriate procedures and policies through objective observation and rational judgments. 
+
+(6) GMs and PMs shall endeavor to confirm and resolve all bugs existing within the game, not only those reported to Customer Support.
+
+(7) GMs and PMs shall announce difficulties in uninterrupted gameplay occurring due to game content errors through the game's website, etc. and may delete in-game content or stop services.
+
+(8) GMs and PMs shall, as a rule, not interfere in players' normal activities or private disputes. However, they may send warnings or restrict gameplay in the following situations:
+
+[Examples]
+
+- If there is use or suspicion of use of illegal programs that negatively affect gameplay, such as deliberate interference in others' games
+- If there is damage to an unspecified large number of players due to a private dispute
+- If there are deemed to be illegal actions or disturbance of order within the game due to user dispute
+- Other cases that GMs or PMs deem to require other actions
+
+
+4. Management of Dormant Accounts 
+
+The Company may delete player accounts that have been inactive for a long time or character information including such accounts in order to provide better services and prevent use of such accounts for wrongful purposes. In the event of deletion of accounts or characters and other changes to dormant accounts, the Company shall provide prior notification to players through notices, email, etc. When a dormant account is deleted, all data shall be fully deleted with no possibility of recovery.
+
+
+
+5. Recovery Policy 
+
+(1) All reports and inquiries regarding Dragon Nest recovery shall be investigated through confirmation of account data and logs, but investigation is only possible within 15 days of the date of occurrence. If such reports and inquiries are not received within 15 days, for reasons of inability to prove damages and destruction of the data needed for investigation, the Company will not support recovery. If the date the incident occurred is not known, the date of the incident shall be deemed the last date the lost/damaged items were confirmed.
+
+However, in the following cases, recovery from Customer Support will be unavailable: 
+
+- If permission to use the item was transferred intentionally by the player through a completed in-game trade
+- If the player deleted the item or sold it to an NPC intentionally or through player error
+- If the item was sent or loaned by someone with an unconfirmed identity
+- If the item, price, quantity, or trade partner were unconfirmed while using the trade system
+- Unstable network connection or PC malfunction
+- Accidental or intentional loss by the player who sustained damages 
+- Damages due to unseen information announced on the game website or in-game or in the Operational and Abuse Policy
+- Items, gold, or cash acquired from the time of damages until the time recovery is completed
+
+(2) Since recovery is not available for damaged/stolen accounts and characters when two-factor authentication has not been set up, we recommend ensuring that two-factor authentication is set up.
+
+(3) If a user reports falsely or exaggeratedly, that player may be restricted from the game or recovery may be unavailable in accordance with the terms of use and Operational and Abuse Policy. 
+
+(4) Players' character and item information may be modified, altered, or deleted due to game planning or GM, PM and Customer Support personnel¡¯s discretion, and individual recovery will be unavailable.  
+
+(5) Players shall be responsible for incidents occurring during game item transfer/sale and while account sharing or trading cash or real items for characters or items, and the Company will not provide assistance. Furthermore, recovery will be unavailable in the event of item/character damage occurring through actions in contravention of policies, such as fraud.
+
+(6) Once an investigation is commenced by request/report, information already received cannot be deleted or modified. Players must therefore provide information such as the list of damages or the time and in-game name as accurately as possible when first making their report or inquiry.
+
+(7) In the event of item/character data loss or alteration due to a technical error in the game service, limited recovery will be provided with consideration for game balance once the game data and logs are objectively and clearly confirmed. However, if services purchased from the Company by players are damaged/lost due to the Company's error, the Company may, in accordance with the terms of use, restore these to their original state, replace them with services of similar value and the same type, or calculate the remaining period and refund payment.
+
+(8) The Company may provide compensation for paid items to users by offering different items of similar value usable within the game, and players shall not claim additional damages from the Company for such actions.
+
+(9) Should players sustain damages due to account theft, transferred items shall be recovered and others restored as a rule. However, if the items have already been altered in the system due to trade/sale/consumption/exchange/enhancing/engraving, some or all may not be recoverable.
+
+(10) Should players' accounts be damaged due to sharing or loan of accounts, Customer Support may be unable to assist with account recovery, and the account user shall be wholly liable for damages sustained. Once account damage is confirmed by Customer Support through investigation of data logs to be due to loan or sharing, the account may be sanctioned according to relevant policies if the report is deemed false. 
+
+(11) The Company shall endeavor to do its utmost to recover in-game content lost due to the Company's own error.
+
+
+[Recovery Standards]
+
+
+
+
+
+1. Accounts and characters
+
+- Accidentally deleted/withdrawn accounts and characters (X)
+- Hacked/stolen accounts and characters (O) 
+¦¦Can be recovered after identity verification if confirmed in the logs
+¦¦¡ØRecovery only available for items that can be recovered after investigation (e.g. unavailable for items lost due to disassembly or sealing) If recovery of an item of the same value is deemed impossible after an investigation, the item will be replaced with an item of the most similar value at the time of recovery
+
+
+2. Guilds
+
+-Guilds that cannot operate due to lack of access by the Guild Master (O)
+¦¦The Guild Master can be changed to the next highest-ranked member if the Guild Master has not accessed the guild for 45 days
+ ¦¦If there is no next highest-ranked member, the Guild Master can be chosen through voting by a majority of members. In this case, proof of voting results, e.g. in-game screenshot or video must be provided
+- If a guild member has extorted the guild's stored items and gold (X)
+
+
+3. Cash and event cash (DNP)
+
+Refund of unused cash (X)
+Chargeback without inquiry, prior approval (X)
+¦¦Permanent ban according to policies without approval/refund for any case or reason
+Accidentally refilled cash types (X)
+¦¦e.g. between EYET and EYEC
+Event cash recovery (X)
+¦¦Event cash not used during the event period cannot be recovered or refunded
+
+
+4. Gold 
+
+Gold lost due to black market or cash transaction fraud (X)
+Transaction fraud between individuals (X)
+
+
+5. Items
+
+For quests (O)
+¦¦Limited to items that can be provided, recovery only once
+Accidental sale or purchase at NPC shops (X)
+Accidental item merge (X)
+Accidental item deletion or disassembly (X)
+Request for deletion of items that cannot be deleted (O)
+¦¦Deleted items cannot be recovered
+Enhancing (X)
+Sealing (X)
+Accidental transmission/receipt in account mail (O)
+¦¦Recovery/recall?only available when the recipient has not claimed?it.
+Loss due to unstable Internet connection and lag (X)
+¦¦Recovery available if official error is confirmed
+Gacha boxes (X)
+If package, box, or pouch boxes were opened (X)
+¦¦Unavailable regardless of whether contents were used
+Items dropped by monsters at inaccessible coordinates (X)
+Accidentally completed crafting of undesired items (X)
+Account theft (O)
+¦¦If the target items were destroyed or can be confirmed in logs
+
+
+
+6. Ban/Suspension Policies and Standards
+
+Policies
+
+(1) GMs and PMs may take appropriate steps to protect other customers by reacting rapidly and in accordance with the general order and standards they share with players to any actions that interfere with uninterrupted game operation or degrade the game environment. Furthermore, GMs may temporarily restrict users' access to the game in the following cases:
+
+[Examples]
+
+- Suspicion of account theft or name theft
+- DDOS attacks
+- Suspicion of use of unofficial programs
+- For the purpose of investigation of major Operational and Abuse Policy violations such as abuse, fraud, or cash transactions
+
+
+(2) Even if an account does not directly violate policies, it may be restricted in the same way for the same violations as an account that does violate policies if it is confirmed to be indirectly involved in such violations of the terms of use and/or Operational and Abuse Policy.
+
+(3) If multiple accounts are confirmed to repeatedly violate the Operational and Abuse Policy on the same system (IP, PC, etc.), they will be considered the same account and may all be restricted in the same way.
+
+(4) If repeated misuse of the game occurs on the same system (IP, PC, etc.) and negatively affects the game environment, an account or accounts using the game on that same system may be restricted until the cause of the misuse is eliminated. 
+
+(5) If multiple IPs or accounts are used for the purpose of private gain to collect or create in-game profit, these may be restricted, and relevant profit may be removed.
+
+(6) If the game environment is severely degraded due to violation of the Operational and Abuse Policy or if additional response is needed, the Company and/or its GMs and PMs may respond legally against any account users and owners involved either directly or indirectly in the issue.
+
+(7) The Company may take action to restrict access and deny service in the event of severe false reports or interruption of the Company's smooth provision of the service.
+
+(8) In the event of account damage due to hacking due to account loaning or sharing, Customer Support will be unable to help with the recovery process, and such accounts may be sanctioned according to policies regardless of their actual user.
+
+(9) In the event of damage caused by hacking or item, gold, or cash loss due to account loaning or sharing, Customer Support may be unable to help with account recovery, and liability for damages shall be imputable to the account.
+
+
+
+Standards
+
+
+[Summary] 
+
+(1) Ban: temporary or permanent restriction on using the game service and relevant services
+(2) IP block: prevention of access to the game by a particular IP or PC
+(3) Warning: temporary restriction of access to the game, forced change of character name, warning from a GM, etc. 
+(4) Removal of profits acquired by actions in violation of policies and service terms.
+(5) Instant permanent ban in the event of impersonation of a Dragon Nest service or Eyedentity Games employee, including GMs and PMs
+(6) Instant permanent bans may be levied if deemed necessary by the GM or PM for actions not included in the standards table below
+
+[Service Restriction Standards Table]
+
+(1)
+
+First Offense	Second Offense	 Third Offense
+7-day suspension	14-day suspension	 Permanent ban
+
+
+Category
+
+Use of inappropriate language or name (DN-COM-01) / (DN-COM-001 for relevant accounts)
+
+1. Actions that evoke discomfort, shame, or disgust in others through use of vulgar, expletive, or pornographic language
+2. Advocacy, propaganda, or criticism of a particular nationality, people, gender, disability, religion, political group, or race
+3. Actions that defame a third party, infringe upon portrait rights or personal information, or libel 
+4. Naming or publicizing of a particular company or group
+5. Actions deemed unwholesome due to violation of social conventions or public decency
+¡Ø The names of users who commit any actions in this Standards Table may be changed at will without prior notice. 
+¡Ø Names of characters, guilds, minions, etc. that suggest cash transactions or illegal programs will be instantly changed, and an additional 7-day suspension will apply.
+
+
+
+Cash/real item transactions (DN-TRD-01) / (DN-TRD-001 for relevant accounts)
+
+1. When the action of trading in-game items, characters, or accounts (IDs) for cash or real items is exposed
+2. Unilateral acquisition of large amounts of currency at no cost from another character without trading or a fair price
+3. Publicizing transactions in cash or real items 
+¡Ø A permanent ban may be applied at the first instance at the discretion of the GM or PM as a result of investigation.
+
+
+Interference with operation (DN-OHT-01) / (DN-OHT-001 for relevant accounts)
+
+1. Actions that interfere with other players' standard gameplay by misusing the game system 
+2. Repeated transmission of the same inquiry or actions that interfere with normal user support such as swearing, slander, or sexual comments
+3. Interference with standard provision of game services through dissemination of misinformation
+4. Any other actions that interfere with standard provision of services
+¡ØA warning may be given first depending on the damage and severity of interference with gameplay
+
+
+False reports (DN-OHT-02) / (DN-OHT-002 for relevant accounts)
+
+1. Interference with standard provision of game services through reporting misinformation
+2. Interference with standard provision of game services through disseminating or using misinformation to incite other users
+
+
+(2)
+
+First Offense	Second Offense	 Third Offense
+15-day suspension	30-day suspension	 Permanent ban
+
+
+
+Category
+
+
+
+Abuse of bugs and systems (DN-CHT 02) / (DN-CHT-002 for relevant accounts)
+
+1. Abusing loopholes in the game or its services for unfair gain or to damage the game system
+or others 
+2. Transmitting information about bugs to other players while failing to notify the GMs, PMs, or Customer Support
+3. Misusing bugs in the game content or systems to manipulate other players' records
+4. Intentionally interfering with or profiting from other users' gameplay
+5. Intentionally repeatedly abusing a particular phenomenon even when this is known to be a bug
+¡Ø A permanent ban may be levied on the first offense in the event severe damage is caused to other users or to the game balance.
+¡Ø Other actions may be taken even if this is unintentional on the part of the player.
+
+
+
+Exploits (DN-CHT 03) / (DN-CHT-003 for relevant accounts)
+
+
+1. Detrimentally affecting the game system and balance or profiting unfairly through irregular means 
+2. Abusing the game system to manipulate rankings, wins/losses, or ratios to benefit particular individuals or groups
+¡Ø Permanent suspension may be levied on the first ban in the event of severe damages to particular users or to large numbers of users due to exploits.
+¡Ø Regardless of intention, items acquired through exploits may be removed at the time restrictions for such exploits are levied.
+
+
+Fraud (DN-TRD-02) / (DN-TRD-002 for relevant accounts)
+
+1. Any actions or attempted actions that derive unfair profit by deceiving other users 
+2. Actions that derive unfair profit by deceiving other users, such as impersonating an acquaintance, GM, or PM 
+3. Acquisition or attempted acquisition of other users' accounts (IDs), characters, items, etc. through
+  unfair means 
+4. Receiving items acquired through fraud or attempted fraud for free or through irregular trade
+
+
+Unapproved refunds (DN-TRD-03) / (DN-TRD-003 for relevant accounts)
+
+1. A permanent ban will be levied on the first ban for refunds, chargebacks, and similar actions taken without prior approval from the GMs, PMs, or Customer Support
+2. Threatening staff with refunds or chargebacks shall be considered to pertain to the same category and will result in a permanent ban on the first offense.
+3. Refunds and chargebacks will be requested and reinvestigated only once, and the results will only be shared with the inquirer as a rule.
+
+
+(3)
+
+Permanent ban of integrated accounts
+
+Category
+
+Account theft (DN-CHT 01) / (DN-CHT-001 for relevant accounts)
+
+1. Unauthorized access to another person's account 
+2. Any actions that damage account or game data through unauthorized access to another person's account (ID) 
+3. Any irregular collection of items acquired through unauthorized access to an account (ID) in another person's name
+4. Any aiding the above actions or profiting from them
+
+
+Use or creation of illegal programs (DN-DUP 01) / (DN-DUP-001 for relevant accounts)
+
+1. Use of programs not officially provided by the Company (hereinafter "Illegal Programs") such as macro, hacking, and automation programs, to degrade the game balance or load the servers 
+2. Creation, distribution, sale, publicity, etc. of Illegal Programs 
+3. Acquisition of items or currency from characters using unofficial programs while cognizant that such programs are in use 
+4. Misuse of the game through irregular access such as duplicate access from the same PC
+5. Modification or manipulation of client or server programs
+
+
+Bot /Botter (DN-CHT 04) / (DN-CHT-004 for relevant accounts DN-CHT 04)
+
+1. Misusing the game as a group through multiple accounts or IPs for the purpose of profit 
+2. Unfair acquisition, transfer, or encashment of items through use of Illegal Programs or speculation 
+3. Any trade for cash/real items from repeated receipt of items acquired by exploit accounts
+
+
+Infringement on personal safety and threats (DN-HRS 01) (DN-HRS 001 for relevant accounts DH HRS 01)
+
+1. Any approach of others to cause discomfort
+2. Any proposal of prostitution, seduction, or sexual services in exchange for money or valuables
+3. Any publication or trade of others' personal information such as identity or private life to threaten others' safety
+4. Uttering threats or actions that severely threaten others' lives or safety
+5. Promoting or recommending suicide or self-harm to severely threaten other's lives or bodies
+6. Glorification or support for crime, criminals, or criminal groups to tolerate or foster crime so as to
+discomfort many
+7. Any other actions that infringe upon or threaten others' safety, cause discomfort, or connote criminal purposes
+
+
+
+Appeals 
+
+1) Appeals may be lodged with Customer Support within 7 days in the event the user objects to the details of the service restriction.
+2) Appeals may only be lodged by the account subject to restrictions.
+3) Relevant information may be submitted to relevant organizations (consumer protection agencies, police, courts, or relevant judicial authorities) in the event of a later problem with the content of the appeal.
+
+
+7. Use of Communities
+
+To establish a wholesome online community culture among online communities operated by the Company (e.g. forums, Facebook, Steam, etc.), posts deemed to carry a significant risk of harming other members may be deleted or hidden without prior warning. Furthermore, the authors of such posts may be subject to restrictions on service use.
+
+¡Ø Examples of unwholesome posts
+
+- Posts that violate public decency
+- Posts that belittle or defame specified or unspecified targets
+- Posts relating to creation, sharing, or distribution of unofficial/illegal programs
+- Posts relating to transactions using cash or real items
+- Advertisements for the purposes of commerce or profit
+- Posts that impersonate or attempt to impersonate an employee
+
+- Posts that infringe upon intellectual property rights such as others' copyrights
+- Posts for the purpose of interfering with or slandering the Company's work
+- Posts that violate the terms of use or relevant statutes
+- Repeated posting (spamming) of the same information (based on the entire post)
+- Other posts deemed irrelevant to the purposes of each forum
+- Posts that infringe upon or are deemed to infringe upon third parties' copyrights or other people's rights
+- Other posts that GMs or PMs deem to require other actions
+
+
+8. Policies to Protect Service Staff from Abuse
+
+Service staff working to help players are members of Eyedentity Games and its partners who must also be protected, and the purpose of these policies is to protect them and guarantee their respectful treatment. Therefore, warnings, discontinuation of service, and restrictions on gameplay may be levied in the event of violation of these staff members' human rights or interference in uninterrupted game operation.
+
+
+¡Ø Examples of interference with game operation through violation of the human rights of staff members
+
+- Interference with work through expletives, sexual harassment, infringement of character, uttering threats, humiliating chat or emails, or visits to the company without prior agreement
+- Interference with work through expletives, sexual harassment, infringement of character, or uttering threats through chat or emails, or visits to the company without prior agreement, unrelated to the game
+- Repeated interference with work through expletives, sexual harassment, humiliation, infringement of character, or uttering threats through chat or emails, or visits to the company without prior agreement
+- Other interference with work through chat, email, or visits to the company without prior agreement using other words or actions that may directly or indirectly cause severe emotional harm 
+- Other actions deemed by a GM or PM to infringe upon the human rights of service staff or interfere with game operation
+
+
+Category: Violation of the human rights of service staff
+
+First Offense: Warning and 7-day game suspension
+Second Offense: Final warning and 30-day game suspension
+Third Offense and up: Permanent ban
+
+
+¡Ø If the above examples recur from the same IP or device, they shall be deemed to originate from the same person and will be handled accordingly.
+¡Ø Relevant information may be submitted to relevant organizations (consumer protection agencies, police, courts, or relevant judicial authorities) in the event of a later problem.
+
+
+
+9. Other
+
+Should a dispute that requires legal action arise between the Company and a player, that dispute shall be processed by the judicial authorities mentioned from the terms of use.
+
+
+
+This Operational and Abuse Policy shall take effect August, 3 2021 (GMT+8).

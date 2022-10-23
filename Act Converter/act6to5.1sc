@@ -1,38 +1,46 @@
-
-
-int i,j;
+int i, j;
 int nDelSignalCount;
-
 int size = 0;
-if(act.nVersion==6){
-    WriteInt(startof(act.nVersion),5);
-for(i =0 ;i<act.nActionCount;i++){
-    for(j =0 ;j<act.ac[i].nSignalCount;j++){        
-      size = size + 1;
+
+if(act.nVersion == 6)
+{
+    WriteInt(startof(act.nVersion), 5);
+
+	for(i = 0; i < act.nActionCount; i++)
+    {
+		for(j = 0; j < act.ac[i].nSignalCount; j++)
+        {        
+            size = size + 1;
+		}
+        size = size + 1;
     }
-    size = size + 1;
-}
 
 
-Printf("size = %d\n",size);
-int tmpsize = 0;
-int act6byte[size];
+    Printf("size = %d\n", size);
 
-for(i =0 ;i<act.nActionCount;i++){
-    act6byte[tmpsize] = startof(act.ac[i].act6);
-    tmpsize = tmpsize + 1;
-    for(j =0 ;j<act.ac[i].nSignalCount;j++){
-        act6byte[tmpsize] = startof(act.ac[i].sg[j].act6);
+    int tmpsize = 0;
+    int act6byte[size];
+
+    for(i = 0; i < act.nActionCount; i++)
+    {
+        act6byte[tmpsize] = startof(act.ac[i].act6);
+
         tmpsize = tmpsize + 1;
+
+        for(j = 0; j < act.ac[i].nSignalCount; j++)
+        {
+            act6byte[tmpsize] = startof(act.ac[i].sg[j].act6);
+
+            tmpsize = tmpsize + 1;
+        }
     }
-}
 
-Printf("size = %d\n",tmpsize);
+    Printf("size = %d\n", tmpsize);
 
+    for(i = 0; i < size; i++)
+    {
+        DeleteBytes(act6byte[i] - i, 1);
+    }
 
-for(i = 0;i<size;i++){
-    DeleteBytes(act6byte[i]-i,1);
-
-}
-FileSave(GetArg(0));
+    FileSave(GetArg(0));
 }
