@@ -48,7 +48,7 @@
 
 				<VillageInfo CID="23" ID="23"  Name="DarkVillage" Attribute="Normal|DarkLair" Visibility="True" LimitLevel="15" MaxUser="50"></VillageInfo>
 
-				<VillageInfo CID="24" ID="17"  Name="TelNumara" Attribute="Normal" Visibility="True" MaxUser="50"></VillageInfo>
+				<!-- <VillageInfo CID="24" ID="17"  Name="TelNumara" Attribute="Normal" Visibility="True" MaxUser="50"></VillageInfo>-->
 
 				<VillageInfo CID="25" ID="60"  Name="DNC_Village" Attribute="DNC" Visibility="True" MaxUser="50"></VillageInfo>
 
