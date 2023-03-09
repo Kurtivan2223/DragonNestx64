@@ -35,7 +35,19 @@ def downloadTxt(url, file):
                 download.flush()
 
 def main():
-    url = input("Enter URL: ")
+    print("Choose Patch Server\n\n[1]Sea\n[2]SDO(Chinese)\n[3]Custom\n\n")
+    option = inpt(": ")
+    
+    if option == 1:
+        url = "http://patchsea.dragonnest.com/Game/DragonNest/Patch/"
+    elif option == 2:
+        url = "https://lzg.jijiagames.com/dn/ReleaseBuild/Patch/"
+    elif option == 3:
+        url = input("Enter URL: ")
+    else:
+        print("[Error] There is no such option! Please try again...")
+        main()
+        
     num = input("Download Patch Starting From: ")
     num2 = input("Up to: ")
     print('\n')
