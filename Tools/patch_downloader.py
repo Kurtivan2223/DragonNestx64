@@ -34,15 +34,15 @@ def downloadTxt(url, file):
 
 def main():
     print("Choose Patch Server\n\n[1]Sea\n[2]SDO(Chinese)\n[3]KR(Korea)\n[4]Custom\n\n")
-    option = inpt(": ")
+    option = input(": ")
     
-    if option == 1:
+    if option == '1':
         url = "http://patchsea.dragonnest.com/Game/DragonNest/Patch/"
-    elif option == 2:
+    elif option == '2':
         url = "https://lzg.jijiagames.com/dn/ReleaseBuild/Patch/"
-    elif option == 3:
+    elif option == '3':
         url = "http://patchkr.dragonnest.com/Patch/"
-    elif option == 4:
+    elif option == '4':
         url = input("Enter URL: ")
     else:
         print("[Error] There is no such option! Please try again...")
