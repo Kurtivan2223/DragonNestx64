@@ -1,18 +1,19 @@
 import os
 import time
+import subprocess
 
 try:
     import requests
 except ImportError:
     print("Installing required module: requests\n")
-    os.system("python pip install requests")
+    subprocess.run(['pip', 'install', 'requests'])
     print("\nModule requests Installed!")
 
 try:
-	import clint
+    import clint
 except ImportError:
-	print("Installing required module: clint\n")
-	os.system("python pip install clint")
+    print("Installing required module: clint\n")
+    subprocess.run(['pip', 'install', 'clint'])
     print("\nModule clint Installed!")
     
 import requests
