@@ -1,9 +1,13 @@
 import requests
 import os
 import time
-from clint.textui import progress
+try:
+	import clint
+except ImportError:
+	print("Installing required module: clint\n")
+	os.system("python pip install clint")
 
-#pip install clint
+from clint.textui import progress
 
 def downloadPak(url, file):
     data = requests.get(url, stream=True)
