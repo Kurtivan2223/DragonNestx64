@@ -1,12 +1,21 @@
-import requests
 import os
 import time
+
+try:
+    import requests
+except ImportError:
+    print("Installing required module: requests\n")
+    os.system("python pip install requests")
+    print("\nModule requests Installed!")
+
 try:
 	import clint
 except ImportError:
 	print("Installing required module: clint\n")
 	os.system("python pip install clint")
-
+    print("\nModule clint Installed!")
+    
+import requests
 from clint.textui import progress
 
 def downloadPak(url, file):
