@@ -1,6 +1,7 @@
 import os
 import time
 import subprocess
+import sys
 
 try:
     import requests
@@ -18,6 +19,8 @@ except ImportError:
     
 import requests
 from clint.textui import progress
+
+os.system("cls")
 
 def downloadPak(url, file):
     data = requests.get(url, stream=True)
@@ -47,7 +50,7 @@ def downloadTxt(url, file):
                 download.flush()
 
 def main():
-    print("Choose Patch Server\n\n[1]Sea\n[2]SDO(Chinese)\n[3]KR(Korea)\n[4]JP(Japan)\n[5]Custom\n\n")
+    print("Choose Patch Server\n\n[1]Sea\n[2]SDO(Chinese)\n[3]KR(Korea)\n[4]JP(Japan)\n[5]Custom\n[6]Exit\n\n")
     option = input(": ")
     
     if option == '1':
@@ -60,6 +63,8 @@ def main():
         url = "http://patchjp.dragonnest.com/Game/Patch/"
     elif option == '5':
         url = input("Enter URL: ")
+    elif option == '6':
+        sys.exit()
     else:
         print("[Error] There is no such option! Please try again...")
         main()
