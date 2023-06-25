@@ -25,7 +25,7 @@ def CheckVersion():
     return int(version)
     
 def CheckServerVersion():
-    request = urllib.request.Request(url = "https://play.luminousdn.com/GX/PatchInfoServer.cfg", headers = {'User-Agent': 'Mozilla/5.0'})
+    request = urllib.request.Request(url = "{ your url }PatchInfoServer.cfg", headers = {'User-Agent': 'Mozilla/5.0'})
     cfg = urllib.request.urlopen(request).read().decode("ASCII")
     version = re.sub("Version ", "", cfg)
     return int(version)
@@ -50,7 +50,7 @@ def main():
         ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
         exit(0)
 
-    url = "https://play.luminousdn.com/GX/"
+    url = "{ your url }"
     ClientPatch = CheckVersion()
     ServerPatch = CheckServerVersion()
     
