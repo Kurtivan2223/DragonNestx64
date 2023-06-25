@@ -61,19 +61,19 @@ def main():
         ServerPatchLength = len(str(ServerPatch))
         
         if ClientPatchLength == 1 or ServerPatchLength == 1:
-            url = f'{url}0000000{i}/Patch0000000{i}.pak'
+            urlFile = f'{url}0000000{i}/Patch0000000{i}.pak'
             file = f'Patch0000000{i}.pak'
         elif ClientPatchLength == 2 or ServerPatchLength == 2:
-            url = f'{url}000000{i}/Patch000000{i}.pak'
+            urlFile = f'{url}000000{i}/Patch000000{i}.pak'
             file = f'Patch000000{i}.pak'
         elif ClientPatchLength == 3 or ServerPatchLength == 3:
-            url = f'{url}00000{i}/Patch00000{i}.pak'
+            urlFile = f'{url}00000{i}/Patch00000{i}.pak'
             file = f'Patch00000{i}.pak'
         elif ClientPatchLength == 4 or ServerPatchLength == 4:
-            url = f'{url}0000{i}/Patch0000{i}.pak'
+            urlFile = f'{url}0000{i}/Patch0000{i}.pak'
             file = f'Patch0000{i}.pak'
         
-        downloadPak(url, file)
+        downloadPak(urlFile, file)
         print(f'Downloaded Patch {i}')
 
     Run()
