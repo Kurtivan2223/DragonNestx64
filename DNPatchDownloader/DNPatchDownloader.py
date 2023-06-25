@@ -7,16 +7,84 @@ import re
 import requests
 import ctypes
 import subprocess
-from clint.textui import progress
+# from clint.textui import progress
+from rich.progress import Progress
 
-def downloadPak(url, file):
-    data = requests.get(url, stream=True)
+#############################################################
+#                      UNITS MAPPING                        #
+#############################################################
+
+UNITS_MAPPING = [
+    (1<<50, ' PB'),
+    (1<<40, ' TB'),
+    (1<<30, ' GB'),
+    (1<<20, ' MB'),
+    (1<<10, ' KB'),
+    (1, (' byte', ' bytes')),
+]
+
+def BytesFormatter(bytes, units=UNITS_MAPPING):
+    for factor, suffix in units:
+        if bytes >= factor:
+            break
+    amount = int(bytes / factor)
+
+    if isinstance(suffix, tuple):
+        singular, multiple = suffix
+        if amount == 1:
+            suffix = singular
+        else:
+            suffix = multiple
+    return str(amount) + suffix
+
+
+# Version 1
+# def downloadPak(url, file):
+#     data = requests.get(url, stream=True)
+#     with open(file, 'wb') as download:
+#         length = int(data.headers.get('content-length'))
+#         for chunk in progress.bar(data.iter_content(chunk_size = 1024), expected_size=(length / 1024) + 1):
+#             if chunk:
+#                 download.write(chunk)
+#                 download.flush()
+
+# Version 2
+# def downloadPak(url, file, description = ""):
+#     response = requests.get(url, stream=True)
+#     length = int(response.headers.get('content-length'))
+#     size = 0
+
+#     with open(file, 'wb') as download:
+
+#         progress = Progress()
+#         task = progress.add_task(description, total = length)
+#         progress.start()
+        
+#         for data in response.iter_content(chunk_size = 4096):
+#             size += len(data)
+#             download.write(data)
+#             progress.update(task, completed = size)
+
+#         progress.stop()
+
+# Version 2.1
+def downloadPak(url, file, description = ""):
+    response = requests.get(url, stream=True)
+    length = int(response.headers.get('content-length'))
+    size = 0
+
     with open(file, 'wb') as download:
-        length = int(data.headers.get('content-length'))
-        for chunk in progress.bar(data.iter_content(chunk_size = 1024), expected_size=(length / 1024) + 1):
-            if chunk:
-                download.write(chunk)
-                download.flush()
+
+        progress = Progress()
+        task = progress.add_task("[cyan]{task.description}", total = length, completed = size)
+        progress.start()
+        
+        for data in response.iter_content(chunk_size = 4096):
+            size += len(data)
+            download.write(data)
+            progress.update(task, completed = size, description = f"{description} " + BytesFormatter(size) + " / " + BytesFormatter(length))
+            
+        progress.stop()
                 
 def CheckVersion():
     cfg = open('Version.cfg', 'r').read()
@@ -42,13 +110,16 @@ def Run():
     subprocess.Popen(r"dnlauncher.exe")
     exit(0)
 
-def main():
+def Admin():
     #rerun program as administrator
     if ctypes.windll.shell32.IsUserAnAdmin():
         pass
     else:
         ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
         exit(0)
+
+def main():
+    #Admin()
 
     url = "{ your url }"
     ClientPatch = CheckVersion()
@@ -73,10 +144,9 @@ def main():
             urlFile = f'{url}0000{i}/Patch0000{i}.pak'
             file = f'Patch0000{i}.pak'
         
-        downloadPak(urlFile, file)
-        print(f'Downloaded Patch {i}')
+        downloadPak(urlFile, file, f"Patch {i}")
 
-    Run()
+    #Run()
 
 if __name__ == '__main__':
     main()
