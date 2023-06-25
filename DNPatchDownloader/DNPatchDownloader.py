@@ -119,7 +119,7 @@ def Admin():
         exit(0)
 
 def main():
-    #Admin()
+    Admin()
 
     url = "{ your url }"
     ClientPatch = CheckVersion()
@@ -146,7 +146,7 @@ def main():
         
         downloadPak(urlFile, file, f"Patch {i}")
 
-    #Run()
+    Run()
 
 if __name__ == '__main__':
     main()
