@@ -79,7 +79,8 @@ def downloadPak(url, file, description = ""):
         task = progress.add_task("[cyan]{task.description}", total = length, completed = size)
         progress.start()
         
-        for data in response.iter_content(chunk_size = 4096):
+        #for data in response.iter_content(chunk_size = 4096):
+        for data in response.iter_content(chunk_size = 1024):
             size += len(data)
             download.write(data)
             progress.update(task, completed = size, description = f"{description} " + BytesFormatter(size) + " / " + BytesFormatter(length))
